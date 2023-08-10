@@ -67,25 +67,41 @@ h1 {
   font-weight: 700;
 }
 
-.arrowup,
 .arrowdown {
- align-self: center;
+  align-self: center;
   width: 8px;
   height: 4px;
   display: block;
 }
 
 .arrowup {
+  align-self: center;
+  width: 8px;
+  height: 4px;
+  display: block;
   rotate: 180deg;
+  transition: rotate 1s;
 }
 
 .hide {
   display: none;
 }
 
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 .show {
   text-align: left;
   display: block;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 3s;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;

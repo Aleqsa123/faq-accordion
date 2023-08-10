@@ -52,7 +52,7 @@ function App() {
 
   return (
     <div className={styles.App}>
-      <img className={styles.hero} src="./images/illustration-woman-online-mobile.svg" />
+      <img className={styles.hero} src="./images/illustration-woman-online-mobile.svg" alt="animation icon" />
       <h1>FAQ</h1>
 
       <div className={styles.faqdiv}>
