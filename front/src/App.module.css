@@ -184,6 +184,10 @@ h1 {
     font-size: 14px;
     line-height: 17px;
   }
+
+  .question:hover {
+    color: hsla(14, 88%, 65%, 1);
+  }
   
   .boldquestion {
     width: 254px;
