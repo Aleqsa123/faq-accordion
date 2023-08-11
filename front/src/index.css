@@ -18,3 +18,9 @@ body {
   background: linear-gradient(hsla(273, 75%, 66%, 1), hsla(240, 74%, 65%, 1));
 }
 
+@media screen and (min-width: 1440px) {
+  body {
+    width: 1440px;
+  }
+
+}
